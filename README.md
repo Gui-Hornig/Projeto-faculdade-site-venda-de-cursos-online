@@ -55,7 +55,7 @@ npm install
 
 
 #### 🌙 Dark Mode :
-![image]/
+![image](https://github.com/Gui-Hornig/Projeto-faculdade-site-venda-de-cursos-online/blob/main/Clear.png)
 
 
 #### ☀️ Light Mode :
