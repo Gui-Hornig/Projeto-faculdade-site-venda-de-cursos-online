@@ -1,0 +1,2 @@
+# Projeto-faculdade-site-venda-de-cursos-online
+ Deixe esse texto mais formal ; Esse repositório foi desenvolvido uma landing page para cursos de Pilates totalmente responsiva e animado através do javascript. Desenvolvi a landing page e tentei deixa-lo mais atrativo adicionando animações, tais como: Este repositório foi criado para desenvolver uma landing page para cursos de Pilates, totalmente responsiva e animada utilizando JavaScript. A landing page foi concebida com o intuito de torná-la mais atrativa, incorporando diversas animações.
