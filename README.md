@@ -55,11 +55,11 @@ npm install
 
 
 #### 🌙 Dark Mode :
-![image](https://github.com/Gui-Hornig/Projeto-faculdade-site-venda-de-cursos-online/blob/main/Clear.png)
+![image](https://github.com/Gui-Hornig/Projeto-faculdade-site-venda-de-cursos-online/blob/main/dark.png)
 
 
 #### ☀️ Light Mode :
-![image](https://github.com/Gui-hornig/pilates-website/assets/70981960/6b38fb09-aac0-4c1c-ace5-46b1117e3e28)
+![image](https://github.com/Gui-Hornig/Projeto-faculdade-site-venda-de-cursos-online/blob/main/Clear.png)
 
 
 
