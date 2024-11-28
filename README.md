@@ -55,7 +55,7 @@ npm install
 
 
 #### 🌙 Dark Mode :
-![image](https://github.com/Gui-hornig/pilates-website/assets/70981960/535305c3-9253-462d-8f42-8abe2bd4a7c9)
+![image]/
 
 
 #### ☀️ Light Mode :
