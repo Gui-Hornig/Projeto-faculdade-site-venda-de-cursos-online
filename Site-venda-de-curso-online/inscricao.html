@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="shortcut icon"
+      href="assets/img/favicon.png"
+      type="image/x-icon"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="assets/css/styles.css" />
+
+    <title>Matricula - Pilates Website</title>
+  </head>
+
+  <body>
+    <header class="header" id="header">
+      <nav class="nav container">
+        <a href="index.html" class="nav__logo">Volta a página príncipal</a>
+      </nav>
+    </header>
+
+    <main class="main">
+      <section class="section">
+        <div class="container">
+          <h1 class="section__title">Inscrição para Aula de Pilates</h1>
+          
+          <div class="card-form">
+            <div class="credit-card">
+              <div class="credit-card__front">
+                <div class="credit-card__number" id="card-number-display">1234 5678 9012 3456</div>
+                <div class="credit-card__name" id="card-name-display">NOME COMPLETO</div>
+                <div class="credit-card__expiry" id="card-expiry-display">MM/AA</div>
+              </div>
+            </div>
+
+            <form id="checkout-form" class="form">
+              <div class="form__group">
+                <label for="name">Nome Completo</label>
+                <input type="text" id="name" name="name" required />
+              </div>
+
+              <div class="form__group">
+                <label for="card-number">Número do Cartão</label>
+                <input type="text" id="card-number" name="card-number" required />
+              </div>
+
+              <div class="form__group-inline">
+                <div class="form__group">
+                  <label for="expiry">Validade</label>
+                  <input type="text" id="expiry" name="expiry" required />
+                </div>
+
+                <div class="form__group">
+                  <label for="cvc">CVC</label>
+                  <input type="text" id="cvc" name="cvc" required />
+                </div>
+              </div>
+
+              <div class="button-container">
+                <button type="submit" class="button">Confirmar Pagamento</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container">
+        <span class="footer__copy">
+            &#169; Copyright. All rights reserved
+        </span>
+      </div>
+    </footer>
+
+    <script src="assets/js/main.js"></script>
+    <script>
+      const cardNumberInput = document.getElementById('card-number');
+      const cardNameInput = document.getElementById('name');
+      const cardExpiryInput = document.getElementById('expiry');
+      const cardNumberDisplay = document.getElementById('card-number-display');
+      const cardNameDisplay = document.getElementById('card-name-display');
+      const cardExpiryDisplay = document.getElementById('card-expiry-display');
+
+      cardNumberInput.addEventListener('input', () => {
+        cardNumberDisplay.textContent = cardNumberInput.value || '1234 5678 9012 3456';
+      });
+
+      cardNameInput.addEventListener('input', () => {
+        cardNameDisplay.textContent = cardNameInput.value.toUpperCase() || 'NOME COMPLETO';
+      });
+
+      cardExpiryInput.addEventListener('input', () => {
+        cardExpiryDisplay.textContent = cardExpiryInput.value || 'MM/AA';
+      });
+    </script>
+  </body>
+</html>
