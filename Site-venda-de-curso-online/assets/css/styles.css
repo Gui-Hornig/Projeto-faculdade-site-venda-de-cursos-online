@@ -146,7 +146,7 @@ body.dark-theme {
   background-color: hsl(260, 16%, 35%);
 }
 
-/*=============== BASE ===============*/
+
 .container {
   max-width: 1120px;
   margin-inline: 1.5rem;
@@ -172,7 +172,7 @@ body.dark-theme {
   overflow: hidden;
 }
 
-/*=============== HEADER & NAV ===============*/
+
 .header {
   position: fixed;
   width: 100%;
